@@ -1,1 +1,6 @@
 .vscode/
+backend/outputfolder
+.DS_Store
+*swp
+backend/histogram.png
+backend/ndvi.tif
