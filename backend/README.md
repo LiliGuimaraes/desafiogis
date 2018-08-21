@@ -13,11 +13,11 @@ workon "nome_escolhido"
 ```
 
 ### Gerando TMS a partir de um TIF, usando GDAL
-#### Instalar gdal2tiles
+#### Instalar biblioteca GDAL
 ```
 sudo aptitude install gdal-bin
 ```
-#### Gerando TMS com zoom de 1 a 15
+#### Gerando TMS com zoom de 1 a 15 - USANDO gdal2tiles
 ```
 gdal2tiles.py --profile=mercator -z 1-15 data/bd74fcb4-3f4a-4769-bc8f-a9a5c6cc8893/true_color.tif outputfolder
 ```
