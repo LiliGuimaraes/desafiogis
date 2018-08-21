@@ -13,7 +13,7 @@ workon "nome_escolhido"
 ```
 
 ### Gerando TMS a partir de um TIF, usando GDAL
-#### Instalar biblioteca GDAL
+#### Instalar gdal2tiles
 ```
 sudo aptitude install gdal-bin
 ```
